@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- viewport meta -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="desription" content="ifm-system , kpi , transport, in.">
+    <meta name="keywords" content=" ifms, intelligent fleet management system, gestion de flotte ,INDICATEUR CLÉ DE PERFORMANCE (KPI)">
+
+    <title>IFMsystem</title>
+
+    <!-- owl carousel css -->
+    <link rel="stylesheet" href="css/owl.carousel.css" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- font icofont -->
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:300,400,400i,700,900" rel="stylesheet">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!-- animte css -->
+    <link rel="stylesheet" href="css/animate.css" />
+
+    <!-- camera css goes here -->
+    <link rel="stylesheet" href="css/camera.css">
+
+    <!-- venobox css goes here -->
+    <link rel="stylesheet" href="css/venobox.css">
+
+    <!-- style css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- responsive css -->
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/faviconv.png" type="image/x-icon">
+    <script>
+        /*
+                                                                                                                                                                                                                                                        here you can add user_data to config object
+                                                                                                                                                                                                                                                        eg.
+                                                                                                                                                                                                                                                        custom_user_data = {
+                                                                                                                                                                                                                                                                externalId: "your_id_for_user",
+                                                                                                                                                                                                                                                                email: "email",
+                                                                                                                                                                                                                                                                username: "username",
+                                                                                                                                                                                                                                                                firstname: "user_first_name",
+                                                                                                                                                                                                                                                                lastname: "user_last_name",
+                                                                                                                                                                                                                                                                additionalFields: "nickname=userNickname; phoneNumber=121212"
+                                                                                                                                                                                                                                                        };
+                                                                                                                                                                                                                                                        */
+        if ("undefined" !== typeof requirejs) window.onload = function(e) {
+            requirejs(["https://paldesk.io/api/widget-client?apiKey=46f82001634c15878325df9f60a35a49"], function(e) {
+                "undefined" !== typeof custom_user_data && (beebeeate_config.user_data = custom_user_data), BeeBeeate.widget.new(beebeeate_config)
+            })
+        };
+        else {
+            var s = document.createElement("script");
+            s.async = !0, s.src = "https://paldesk.io/api/widget-client?apiKey=46f82001634c15878325df9f60a35a49", s.onload = function() {
+                "undefined" !== typeof custom_user_data && (beebeeate_config.user_data = custom_user_data), BeeBeeate.widget.new(beebeeate_config)
+            };
+            if (document.body) {
+                document.body.appendChild(s)
+            } else if (document.head) {
+                document.head.appendChild(s)
+            }
+        }
+    </script>
+    <script>
+        if ("undefined" !== typeof requirejs) window.onload = function(e) {
+            requirejs(["https://paldesk.io/api/fwidget-client?apiKey=3f88392ce83a82cdfb5bcbad844f4494"], function(e) {
+                "undefined" !== typeof custom_user_data && (beebeeate_config_feedback.user_data = custom_user_data), BeeBeeateFeedback.widget.new(beebeeate_config_feedback)
+            })
+        };
+        else {
+            var s = document.createElement("script");
+            s.async = !0, s.src = "https://paldesk.io/api/fwidget-client?apiKey=3f88392ce83a82cdfb5bcbad844f4494", s.onload = function() {
+                "undefined" !== typeof custom_user_data && (beebeeate_config_feedback.user_data = custom_user_data), BeeBeeateFeedback.widget.new(beebeeate_config_feedback)
+            };
+            if (document.body) {
+                document.body.appendChild(s)
+            } else if (document.head) {
+                document.head.appendChild(s)
+            }
+        }
+    </script>
+</head>
+
+<body class="about_us_page">
+
+    <!-- preloader -->
+    <div class="preloader-bg">
+        <div class="preloader-container">
+            <div class="lds-ring">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="breadcrumb breadcrumb-7 reveal animated" data-delay="0.2s" data-anim="fadeInUpShort" style="background:url(images/img-service/slide_kpi.png); background-size:cover;">
+
+        <div class="breadcrumb_content">
+            <!-- container starts -->
+            <div class="container">
+                <!-- row starts -->
+                <div class="row">
+                    <!-- col-md-12 starts -->
+                    <div class="col-md-12">
+                        <div class="breadcrumb_title_wrapper">
+                            <div class="page_title">
+                                <h1>Indicateur Clé de Performance (KPI)</h1>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- col-md-12 ends -->
+                </div>
+                <!-- /.row ends -->
+            </div>
+            <!-- /.container ends -->
+        </div>
+    </section>
+    <!-- menu starts -->
+    <div class="menu_area">
+
+        <!-- container starts -->
+        <div class="container-fluid">
+            <!-- row start -->
+            <div class="row">
+
+                <div class="col-md-12" style="padding-left:0 !important ;padding-right:0 !important;">
+                    <div class="mainmenu nav_shadow">
+                        <nav class="navbar navbar-default">
+
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                                    <span class="sr-only">Toggle navigation</span>
+                                                    <span class="icon-bar"></span>
+                                                    <span class="icon-bar"></span>
+                                                    <span class="icon-bar"></span>
+                                                </button>
+                            </div>
+
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <ul class="nav navbar-nav magic_menu">
+                                    <a href="index.php">
+                                        <img src="images/logo.png" alt="logo-ifm-system" style="width: 12%;margin-right: 12%;"></a>
+
+                                    <li>
+                                        <a href="index.php">Acceuil</a>
+
+                                    </li>
+                                    <li class="has_dropdown active">
+                                        <a href="#">Services et solutions<span class="fa fa-angle-down"></span></a>
+                                        <div class="dropdwon">
+                                            <ul>
+                                                <li><a href="roulant.html">Gestion de Parc roulant</a></li>
+                                                <li><a href="lifting.html">Gestion de parc lifting</a></li>
+                                                <li><a href="exploitation.html">Gestion d'exploitation</a></li>
+                                                <li><a href="gmao.html">GMAO</a></li>
+                                                <li><a href="energie.html">Gestion énergitique</a></li>
+                                                <li><a href="stock.html">Gestion de stock</a></li>
+                                                <li><a href="achat.html">Gestion d'achat</a></li>
+                                                <li><a href="kpi.html">KPI</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="has_dropdown ">
+                                        <a href="#">Service Clients<span class="fa fa-angle-down"></span></a>
+                                        <div class="dropdwon">
+                                            <ul>
+                                                <li><a href="service.html">Support et service</a></li>
+                                                <li><a href="formation.html">Formation</a></li>
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li><a href="#">Catalogue</a></li>
+
+                                    <li><a href="contact.html">contact</a></li>
+                                </ul>
+
+                            </div>
+                            <!-- /.navbar-collapse -->
+                        </nav>
+                    </div>
+                    <!-- main menu ends -->
+                </div>
+            </div>
+            <!-- /.row end -->
+
+        </div>
+        <!-- /.container ends -->
+    </div>
+    <!-- menu ends -->
+    </section>
+    <!--================================
+        END SLIDER AREA
+    =================================-->
+
+    <section style="margin-top:100px;">
+        <div class="container-fluid">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-6" style="margin-top:6%">
+                        <div class="about_us_img">
+                            <img src="images/img-service/slide-kpi.png" alt="kpi-ifm-system" style="width:100% !important">
+                        </div>
+                    </div>
+                    <div class="col-md-6" style="    margin-left: -16px; margin-right: 15px;" style="margin-right: -15rem !important;">
+                        <div class="about_us_content_wrapper">
+                            <div>
+                                <!-- Tab panes -->
+                                <div class="tab-content" style="margin-top:0 !important;">
+                                    <div role="tabpanel" class="tab-pane fadeInUpShort animated active" id="mission">
+                                        <div class="section_title">
+                                            <div class="sub_title">
+                                                <p style="text-transform: uppercase;">indicateurs clés de performance</p>
+                                            </div>
+                                            <div class="title">
+
+                                            </div>
+                                        </div>
+                                        <p>Bien gérer son business aujourd’hui passe par une analyse prédictive de ses résultats. Vous évoluez dans un environnement si complexe, que pour garantir le bon développement de votre entreprise, vous devez pouvoir
+                                            suivre facilement les indicateurs clés de votre métier, les voir évoluer et être averti si ceux-ci dépassent les seuils d’alerte fixés.
+                                        </p>
+                                        <p>Votre ERP doit donc intégrer des KPI (key performance indicators / indicateurs clés de performance), afin de mesurer l’efficacité de vos actions, d’analyser facilement vos résultats et de mettre en place des actions
+                                            correctives avant qu’il ne soit trop tard. Ces KPI doivent répondre à vos problématiques de distributeur et /ou loueurs de matériels, et doivent donc avoir été pensés pour votre métier.
+                                        </p>
+                                        <p>Ces KPI métiers, vous permettront d’analyser votre performance et d'être alerté si un indicateur atteint un niveau anormal (trop fort, ou trop faible).
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--================================
+        START ABOUT US AREA
+    =================================-->
+
+
+    <section class="section-2" style="margin-top:70px;">
+        <div class="container">
+            <div class="col-md-12">
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card" data-aos="fade-up" data-aos-duration="1000" style="padding-bottom: 86px;">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="images/icon/kpii.png" alt="checked-kpi-ifm-system" width="100%">
+                                </div>
+                                <div class="col-md-9">
+                                    <p class="par">Temps moyen de traitement d’une tâche</p>
+                                    <p><img src="images/icons/cheked.svg" alt="checked-kpi-ifm-system" width="2%" style="margin-right: 10px;">On pourra remarquer que cet exemple d’indicateur de performance pourra venir compléter la Velocity Chart. Sprints
+                                        required<br><img src="images/icons/cheked.svg" width="2%" style="margin-right: 10px;"> Le « sprints required » est un indicateur de performance 100% home made. Il est facilement calculé comme étant le rapport du
+                                        total des story points du backlog sur la vélocité moyenne de l’équipe.
+
+                                        <br> <img src="images/icons/cheked.svg" alt="checked-kpi-ifm-system" width="2%" style="margin-right: 10px;">Il donne le nombre de sprints nécessaires (sprints required), et donc le temps nécessaire, pour que toutes
+                                        les tâches du backlog à l’instant du calcul soient traitées par l’équipe.
+                                    </p>
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card" data-aos="fade-up" data-aos-duration="1000">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="images/icon/ff.png" width="100%">
+                                </div>
+                                <div class="col-md-9">
+                                    <p class="par">Rotation de stock</p>
+
+                                    <p>La rotation de stock permet de juger :</p>
+                                    <ul>
+                                        <li>
+                                            <p style=" line-height: 1;"> <img src="images/icons/cheked.svg" alt="checked-kpi-ifm-system" width="2%" style="margin-right: 10px;">l’efficacité des approvisionnements</p>
+                                        </li>
+                                        <li>
+                                            <p style=" line-height: 1;"><img src="images/icons/cheked.svg" alt="checked-kpi-ifm-system" width="2%" style="margin-right: 10px;">l’efficacité de la gestion des stocks des ventes en volume de l’entreprise</p>
+                                        </li>
+                                        <li>
+                                            <p style=" line-height: 1;"><img src="images/icons/cheked.svg" alt="checked-kpi-ifm-system" width="2%" style="margin-right: 10px;">l’utilisation judicieuse de la trésorerie
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card" data-aos="fade-up" data-aos-duration="1000">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="images/icon/ccc.png" width="100%">
+                                </div>
+                                <div class="col-md-9">
+                                    <p class="par">Taux de rendement synthétique TRS
+                                    </p>
+
+
+                                    <p>
+                                        Le taux de rendement synthétique est la multiplication de 3 autres taux :</p>
+                                    <ol>
+                                        <li>
+                                            <p><img src="images/icons/cheked.svg" alt="checked-kpi-ifm-system" width="2%" style="margin-right: 10px;">le taux de disponibilité</p>
+                                        </li>
+                                        <li>
+                                            <p><img src="images/icons/cheked.svg" alt="checked-kpi-ifm-system" width="2%" style="margin-right: 10px;">le taux de performance</p>
+                                        </li>
+                                        <li>
+                                            <p><img src="images/icons/cheked.svg" alt="checked-kpi-ifm-system" width="2%" style="margin-right: 10px;">le taux de qualité</p>
+                                        </li>
+                                    </ol>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--================================
+        START FOOTER
+    =================================-->
+    <footer>
+        <div class="big_footer_wrapper section_padding">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-3 xxs_fullwidth col-xs-6">
+                        <div class="footer_about_wrapper reveal animated" data-anim="fadeInLeftShort">
+                            <div class="footer_logo">
+                                <a href="index.php">
+                                    <img src="images/logo.png" alt="footer_logo_ifm-system" style="width: 70%;">
+                                </a>
+                            </div>
+                            <div class="footer_about_us">
+                                <p>
+                                    Analyser et Améliorer les opérations de votre entreprise.
+                                </p>
+                            </div>
+                            <div class="footer_social">
+                                <h4>Soyez connectés</h4>
+                                <ul>
+                                    <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                                    <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+
+                                    <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2 xxs_fullwidth col-xs-6">
+                        <div class="footer_widgets sevices reveal animated" data-anim="fadeInRightShort" data-delay="0.2s">
+                            <div class="widget_title">
+                                <h4> Services et solutions</h4>
+                            </div>
+                            <div class="footer_links">
+                                <ul>
+                                    <li><a href="roulant.html">Gestion de parc roulant</a></li>
+                                    <li><a href="lifting.html">Gestion de parc lifting</a></li>
+                                    <li><a href="exploitation.html">Gestion d'exploitation</a></li>
+
+                                    <li><a href="energie.html">Gestion energitique</a></li>
+                                    <li><a href="stock.html">Gestion de stock</a></li>
+                                    <li><a href="achat.html">Gestion d'achat</a></li>
+                                    <li><a href="gmao.html">GMAO</a></li>
+                                    <li><a href="kpi.html">KPI</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-3 xxs_fullwidth col-xs-6">
+                        <div class="footer_widgets contact reveal animated" data-anim="fadeInRightShort" data-delay="0.4s">
+                            <div class="widget_title">
+                                <h4>Contactez-nous</h4>
+                            </div>
+                            <div class="footer_address">
+                                <ul>
+                                    <li><span class="fa fa-paper-plane-o"></span>
+                                        <div class="address_right"> Avenue République 3100 Kairouan</div>
+                                    </li>
+                                    <li>
+                                        <span class="fa fa-phone"></span>
+                                        <div class="number address_right">
+                                            <a href="#"> (+216) 99 929 927 <br> (+216) 54 635 309</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <span class="fa fa-envelope-o"></span>
+                                        <div class="address_right">
+                                            <a href="#">contact@ifm-system.com</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <img src="images/ffoter-ca.png" alt="logo-ifm-system" width="100%">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="tiny_footer">
+            <div class="container">
+                <div class="col-md-12 xs_fullwidth ">
+                    <div class="footer_text_wrapper text-center">
+                        <p class="footer_text">Copyright © 2019 <a href="#">M3SOFT</a></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!--================================
+                END FOOTER
+            =================================-->
+    <!--//////////////////// JS GOES HERE ////////////////-->
+
+    <!-- jquery latest version -->
+    <script src="js/jquery-1.12.3.js "></script>
+
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.min.js "></script>
+
+    <!-- jquery easing 1.3 -->
+    <script src="js/jquery.easing1.3.js "></script>
+
+    <!-- Owl carousel js-->
+    <script src="js/owl.carousel.min.js "></script>
+
+    <!-- venobox js -->
+    <script src="js/venobox.min.js "></script>
+
+    <!-- Isotope js-->
+    <script src="js/isotope.js "></script>
+
+    <!-- Pakcery layout js-->
+    <script src="js/packery.js "></script>
+
+    <!-- waypoint js -->
+    <script src="js/waypoints.min.js "></script>
+
+    <!-- google map js -->
+    <script src="http://maps.googleapis.com/maps/api/js "></script>
+
+    <!-- smoothscroll js -->
+    <script src="js/jqury.smooth-scroll.min.js "></script>
+
+    <!-- jquery camera slider js -->
+    <script src="js/jquery.camera.min.js "></script>
+    <!-- Counter up -->
+    <script src="js/jquery.counterup.js "></script>
+
+    <!-- Waypoint -->
+    <script src="js/waypoints.min.js "></script>
+
+    <!-- Main js -->
+    <script src="js/main.js "></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js "></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+<!-- Mirrored from trusttransport.themeebit.com/about_us.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 16 Nov 2019 08:18:56 GMT -->
+
+</html>

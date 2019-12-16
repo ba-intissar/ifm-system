@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- viewport meta -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="desription" content="ifm-system ,GMAO, Gestion du flotte">
+
+    <title>IFMSYSTEM</title>
+
+    <!-- owl carousel css -->
+    <link rel="stylesheet" href="css/owl.carousel.css" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- font icofont -->
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:300,400,400i,700,900" rel="stylesheet">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!-- animte css -->
+    <link rel="stylesheet" href="css/animate.css" />
+
+    <!-- camera css goes here -->
+    <link rel="stylesheet" href="css/camera.css">
+
+    <!-- venobox css goes here -->
+    <link rel="stylesheet" href="css/venobox.css">
+
+    <!-- style css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- responsive css -->
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/faviconv.png" type="image/x-icon">
+    <script>
+        /*
+                                                                                                                                                                                                                                                                                                                                                                                                                here you can add user_data to config object
+                                                                                                                                                                                                                                                                                                                                                                                                                eg.
+                                                                                                                                                                                                                                                                                                                                                                                                                custom_user_data = {
+                                                                                                                                                                                                                                                                                                                                                                                                                        externalId: "your_id_for_user",
+                                                                                                                                                                                                                                                                                                                                                                                                                        email: "email",
+                                                                                                                                                                                                                                                                                                                                                                                                                        username: "username",
+                                                                                                                                                                                                                                                                                                                                                                                                                        firstname: "user_first_name",
+                                                                                                                                                                                                                                                                                                                                                                                                                        lastname: "user_last_name",
+                                                                                                                                                                                                                                                                                                                                                                                                                        additionalFields: "nickname=userNickname; phoneNumber=121212"
+                                                                                                                                                                                                                                                                                                                                                                                                                };
+                                                                                                                                                                                                                                                                                                                                                                                                                */
+        if ("undefined" !== typeof requirejs) window.onload = function(e) {
+            requirejs(["https://paldesk.io/api/widget-client?apiKey=46f82001634c15878325df9f60a35a49"], function(e) {
+                "undefined" !== typeof custom_user_data && (beebeeate_config.user_data = custom_user_data), BeeBeeate.widget.new(beebeeate_config)
+            })
+        };
+        else {
+            var s = document.createElement("script");
+            s.async = !0, s.src = "https://paldesk.io/api/widget-client?apiKey=46f82001634c15878325df9f60a35a49", s.onload = function() {
+                "undefined" !== typeof custom_user_data && (beebeeate_config.user_data = custom_user_data), BeeBeeate.widget.new(beebeeate_config)
+            };
+            if (document.body) {
+                document.body.appendChild(s)
+            } else if (document.head) {
+                document.head.appendChild(s)
+            }
+        }
+    </script>
+    <script>
+        if ("undefined" !== typeof requirejs) window.onload = function(e) {
+            requirejs(["https://paldesk.io/api/fwidget-client?apiKey=3f88392ce83a82cdfb5bcbad844f4494"], function(e) {
+                "undefined" !== typeof custom_user_data && (beebeeate_config_feedback.user_data = custom_user_data), BeeBeeateFeedback.widget.new(beebeeate_config_feedback)
+            })
+        };
+        else {
+            var s = document.createElement("script");
+            s.async = !0, s.src = "https://paldesk.io/api/fwidget-client?apiKey=3f88392ce83a82cdfb5bcbad844f4494", s.onload = function() {
+                "undefined" !== typeof custom_user_data && (beebeeate_config_feedback.user_data = custom_user_data), BeeBeeateFeedback.widget.new(beebeeate_config_feedback)
+            };
+            if (document.body) {
+                document.body.appendChild(s)
+            } else if (document.head) {
+                document.head.appendChild(s)
+            }
+        }
+    </script>
+</head>
+
+<body class="about_us_page">
+
+    <!-- preloader -->
+    <div class="preloader-bg">
+        <div class="preloader-container">
+            <div class="lds-ring">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="breadcrumb breadcrumb-3 reveal animated" data-delay="0.2s" data-anim="fadeInUpShort" style="background:url(images/img-service/slide_GMAO.png); background-size:cover;">
+
+        <div class="breadcrumb_content">
+            <!-- container starts -->
+            <div class="container">
+                <!-- row starts -->
+                <div class="row">
+                    <!-- col-md-12 starts -->
+                    <div class="col-md-12">
+                        <div class="breadcrumb_title_wrapper">
+                            <div class="page_title">
+                                <h1>GMAO</h1>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- col-md-12 ends -->
+                </div>
+                <!-- /.row ends -->
+            </div>
+            <!-- /.container ends -->
+        </div>
+    </section>
+    <!-- menu starts -->
+    <div class="menu_area">
+
+        <!-- container starts -->
+        <div class="container-fluid">
+            <!-- row start -->
+            <div class="row">
+
+                <div class="col-md-12" style="padding-left:0 !important ;padding-right:0 !important;">
+                    <div class="mainmenu nav_shadow">
+                        <nav class="navbar navbar-default">
+
+                            <!-- Brand and toggle get grouped for better mobile display -->
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                                    <span class="sr-only">Toggle navigation</span>
+                                                    <span class="icon-bar"></span>
+                                                    <span class="icon-bar"></span>
+                                                    <span class="icon-bar"></span>
+                                                </button>
+                            </div>
+
+                            <!-- Collect the nav links, forms, and other content for toggling -->
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <ul class="nav navbar-nav magic_menu">
+                                    <a href="index.php">
+                                        <img src="images/logo.png" alt="logo-ifm-system" style="width: 12%;margin-right: 12%;"></a>
+
+                                    <li>
+                                        <a href="index.php">Acceuil</a>
+
+                                    </li>
+                                    <li class="has_dropdown active">
+                                        <a href="#">Services et solutions<span class="fa fa-angle-down"></span></a>
+                                        <div class="dropdwon">
+                                            <ul>
+                                                <li><a href="roulant.html">Gestion de Parc roulant</a></li>
+                                                <li><a href="lifting.html">Gestion de parc lifting</a></li>
+                                                <li><a href="exploitation.html">Gestion d'exploitation</a></li>
+                                                <li><a href="gmao.html">GMAO</a></li>
+                                                <li><a href="energie.html">Gestion énergitique</a></li>
+                                                <li><a href="stock.html">Gestion de stock</a></li>
+                                                <li><a href="achat.html">Gestion d'achat</a></li>
+                                                <li><a href="kpi.html">KPI</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="has_dropdown ">
+                                        <a href="#">Service Clients<span class="fa fa-angle-down"></span></a>
+                                        <div class="dropdwon">
+                                            <ul>
+                                                <li><a href="service.html">Support et service</a></li>
+                                                <li><a href="formation.html">Formation</a></li>
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li><a href="#">Catalogue</a></li>
+
+                                    <li><a href="contact.html">contact</a></li>
+                                </ul>
+
+                            </div>
+                            <!-- /.navbar-collapse -->
+                        </nav>
+                    </div>
+                    <!-- main menu ends -->
+                </div>
+            </div>
+            <!-- /.row end -->
+
+        </div>
+        <!-- /.container ends -->
+    </div>
+    <!-- menu ends -->
+    </section>
+    <!--================================
+        END SLIDER AREA
+    =================================-->
+
+
+    <!--================================
+        START ABOUT US AREA
+    =================================-->
+    <section class="mission_vision section_padding reveal animated" data-delay="0.2s" data-anim="fadeInUpShort">
+        <!-- container starts -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-7 col-xs-6 xs_fullwidth v_middle">
+                    <div class="about_us_img">
+                        <img src="images/img-service/gmao.png" alt="gmao-ifm-system" style="width:70% !important">
+                    </div>
+                </div>
+                <div class="col-md-5 col-xs-6 xs_fullwidth v_middle">
+                    <div class="about_us_content_wrapper">
+                        <div>
+                            <!-- Tab panes -->
+                            <div class="tab-content" style="margin-top:0 !important;">
+                                <div role="tabpanel" class="tab-pane fadeInUpShort animated active" id="mission">
+                                    <div class="section_title">
+                                        <div class="sub_title">
+                                            <p>GMAO</p>
+                                        </div>
+                                        <div class="title">
+
+                                        </div>
+                                    </div>
+                                    <p>Notre produit vise en premier lieu à assister les services de maintenances de votre entreprise dans vos missions. Un service de maintenance qui cherche à maintenir ou à rétablir un bien (équipement) dans un état spécifié
+                                        afin que celui-ci soit en mesure d'assurer un service déterminé. Cette application est utile dans d'autres services de l'entreprise, comme la production ou l'exploitation (afin de fournir des informations sur l'état
+                                        des équipements), ainsi que la direction financière ou générale de l'entreprise, en fournissant des indicateurs facilitant les prises de décisions en matière de renouvellement de parc.
+
+
+
+                                    </p>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="container" style="margin-top:80px;">
+                <div class="row text-left">
+                    <div class="col-md-6">
+                        <div class="title aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000">
+                            <h4 class="title-orange">Définissez un planning de maintenance efficace à votre flotte
+                                </h2>
+                                <p>Sachant qu’un entretien régulier réduira le temps d’indisponibilité de vos véhicules et augmentera leur durée de vie, IFMS vous permet à travers ses plans d’entretien préventifs de planifier vos maintenances préventives
+                                    (vidange, contrôle technique, changement de pièce, etc.). Plus encore, vous allez recevoir des alertes aussi bien sur IFMS que par mail comportant l’ensemble des entretiens préventifs que vous avez programmé et que
+                                    vous devez effectuer.
+                                </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="title aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000">
+                            <h4 class="title-orange">Optimisez la gestion du poste pneumatique en maîtrisant parfaitement vos coûts.
+
+                                </h2>
+                                <p>Le coût des pneus est conséquent, il représente 20% des coûts totaux de la flotte. C’est pourquoi IFMS vous offre les moyens de les gérer de bout en bout: Faite votre inventaire pneus, affectez vos pneus par position ou
+                                    par véhicule, faites votre suivi kilométrique et réformez vos pneus.
+                                </p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </div>
+        </div>
+        <!-- /.container starts -->
+    </section>
+    <!--================================
+        END ABOUT US AREA
+    =================================-->
+
+    <section class="section-2">
+        <div class="container">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card" data-aos="fade-up" data-aos-duration="2000">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="images/icon/CLIENTS.png" alt="fournisseurs-ifmsystem" width="100%">
+                                </div>
+                                <div class="col-md-9">
+                                    <p class="par">Fournisseurs</p>
+                                    <p class="par-2">Notre IFMS vous facilite la vie en prenant en charge l’assistance et les mises à jour de vos fournisseurs. C’est IFMS qui prend en charge vos infos ainsi que le stockage des fournisseurs. Avec des fonctionnalités comme
+                                        tableaux de bord, gestion des entrées/sorties et gestion des commandes fournisseurs,cette application fait partie des plus complets du marché.
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card" data-aos="fade-up" data-aos-duration="1000">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="images/icon/contrat.png" alt="bon-travail-ifmsystem" width="100%">
+                                </div>
+                                <div class="col-md-9">
+                                    <p class="par">Bon de travail</p>
+                                    <p class="par-2">Notre IFMS offre beaucoup plus que la simple gestion des bons de travail. C’est un GMAO complet qui permet de gérer des processus d’affaires détaillés de maintenance. Les nombreux champs disponibles, et leur convivialité
+                                        permettent de saisir rapidement et de façon précise, des renseignements permettant de mieux documenter les tâches à effectuer.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card" data-aos="fade-up" data-aos-duration="2000">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="images/icon/entre.png" alt="retour-matériel-ifmsystem" width="100%">
+                                </div>
+                                <div class="col-md-9">
+                                    <p class="par">Retour Matériel</p>
+                                    <p class="par-2">Tout matèriel reçu sans autorisation ou sans bon de retour à l'intérieur ne pourra être traité. Il faut avant de renvoyer un produit au marchand, faites un détour par ses conditions générales de vente pour prendre connaissance
+                                        de sa politique de retour.
+                                    </p>
+                                    <br><br><br><br>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card" data-aos="fade-up" data-aos-duration="1000" style="    padding: 35px 32px;">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img src="images/icon/homme.png" alt="interventions-ifmsystem" width="100%">
+                                </div>
+                                <div class="col-md-9">
+                                    <p class="par">Interventions</p>
+                                    <p class="par-2">La gestion des interventions proposée par notre GMAO s’adapte aisément au processus lié à vos contraintes organisationnelles et à vos exigences métiers. Elle propose une gestion complète des activités de maintenance
+                                        : maintenance préventive, corrective, conditionnelle, réglementaire, travaux neufs et améliorations. </p><br>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--================================
+        START FOOTER
+    =================================-->
+    <footer>
+        <div class="big_footer_wrapper section_padding">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-3 xxs_fullwidth col-xs-6">
+                        <div class="footer_about_wrapper reveal animated" data-anim="fadeInLeftShort">
+                            <div class="footer_logo">
+                                <a href="index.php">
+                                    <img src="images/logo.png" alt="footer_logo-ifmsystem" style="width: 70%;">
+                                </a>
+                            </div>
+                            <div class="footer_about_us">
+                                <p>
+                                    Analyser et Améliorer les opérations de votre entreprise.
+                                </p>
+                            </div>
+                            <div class="footer_social">
+                                <h4>Soyez connectés</h4>
+                                <ul>
+                                    <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                                    <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+
+                                    <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-2 xxs_fullwidth col-xs-6">
+                        <div class="footer_widgets sevices reveal animated" data-anim="fadeInRightShort" data-delay="0.2s">
+                            <div class="widget_title">
+                                <h4> Services et solutions</h4>
+                            </div>
+                            <div class="footer_links">
+                                <ul>
+                                    <li><a href="roulant.html">Gestion de parc roulant</a></li>
+                                    <li><a href="lifting.html">Gestion de parc lifting</a></li>
+                                    <li><a href="exploitation.html">Gestion d'exploitation</a></li>
+
+                                    <li><a href="energie.html">Gestion energitique</a></li>
+                                    <li><a href="stock.html">Gestion de stock</a></li>
+                                    <li><a href="achat.html">Gestion d'achat</a></li>
+                                    <li><a href="gmao.html">GMAO</a></li>
+                                    <li><a href="kpi.html">KPI</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-3 xxs_fullwidth col-xs-6">
+                        <div class="footer_widgets contact reveal animated" data-anim="fadeInRightShort" data-delay="0.4s">
+                            <div class="widget_title">
+                                <h4>Contactez-nous</h4>
+                            </div>
+                            <div class="footer_address">
+                                <ul>
+                                    <li><span class="fa fa-paper-plane-o"></span>
+                                        <div class="address_right"> Avenue République 3100 Kairouan</div>
+                                    </li>
+                                    <li>
+                                        <span class="fa fa-phone"></span>
+                                        <div class="number address_right">
+                                            <a href="#"> (+216) 99 929 927 <br> (+216) 54 635 309</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <span class="fa fa-envelope-o"></span>
+                                        <div class="address_right">
+                                            <a href="#">contact@ifm-system.com</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <img src="images/ffoter-ca.png" alt="ifm-system-logo" width="100%">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="tiny_footer">
+            <div class="container">
+                <div class="col-md-12 xs_fullwidth ">
+                    <div class="footer_text_wrapper text-center">
+                        <p class="footer_text">Copyright © 2019 <a href="#">M3SOFT</a></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!--================================
+                END FOOTER
+            =================================-->
+
+    <!--//////////////////// JS GOES HERE ////////////////-->
+
+    <!-- jquery latest version -->
+    <script src="js/jquery-1.12.3.js "></script>
+
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.min.js "></script>
+
+    <!-- jquery easing 1.3 -->
+    <script src="js/jquery.easing1.3.js "></script>
+
+    <!-- Owl carousel js-->
+    <script src="js/owl.carousel.min.js "></script>
+
+    <!-- venobox js -->
+    <script src="js/venobox.min.js "></script>
+
+    <!-- Isotope js-->
+    <script src="js/isotope.js "></script>
+
+    <!-- Pakcery layout js-->
+    <script src="js/packery.js "></script>
+
+    <!-- waypoint js -->
+    <script src="js/waypoints.min.js "></script>
+
+    <!-- google map js -->
+    <script src="http://maps.googleapis.com/maps/api/js "></script>
+
+    <!-- smoothscroll js -->
+    <script src="js/jqury.smooth-scroll.min.js "></script>
+
+    <!-- jquery camera slider js -->
+    <script src="js/jquery.camera.min.js "></script>
+    <!-- Counter up -->
+    <script src="js/jquery.counterup.js "></script>
+
+    <!-- Waypoint -->
+    <script src="js/waypoints.min.js "></script>
+
+    <!-- Main js -->
+    <script src="js/main.js "></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js "></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
